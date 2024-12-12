@@ -1,0 +1,15 @@
+export const FILE_UPLOAD_LIMITS = {
+  MAX_FILE_SIZE: 1024 * 1024, // 1MB
+  ALLOWED_MIME_TYPES: ['text/plain'],
+  MAX_DOMAINS_PER_REQUEST: 100
+};
+
+export const VALIDATION_CONSTANTS = {
+  DOMAIN_MAX_LENGTH: 253,
+  DOMAIN_LABEL_MAX_LENGTH: 63
+};
+
+export const API_RATE_LIMITS = {
+  WINDOW_MS: 15 * 60 * 1000, // 15 minutes
+  MAX_REQUESTS: 100
+};
